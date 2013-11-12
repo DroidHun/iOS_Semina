@@ -7,12 +7,15 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
+
+@synthesize testButton;
+@synthesize testLabel;
 
 - (void)viewDidLoad
 {
@@ -27,8 +30,33 @@
     // Dispose of any resources that can be recreated.
 }
 
--(IBAction)someClicked:(id)sender
+-(IBAction)btnClicked:(id)sender
 {
+    //sender example - sender가 testButton이라면
+    if(sender == [self testButton]){
+        NSLog(@"Clicked");
+        //
+        [testLabel setText:@"Clicked!"];
+    }
 }
+
+-(IBAction)segueBtnClicked:(id)sender
+{
+    NSLog(@"segueBtnClicked");
+    [self performSegueWithIdentifier:@"EventSegue" sender:self];
+}
+
+-(IBAction)ibSegueBtnClicked:(id)sender
+{
+    NSLog(@"idSegueBtnClicked");
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    NSLog(@"PrepareForSegueInFirst");
+    NSLog(@"%@",[segue identifier]);
+}
+
+
 
 @end

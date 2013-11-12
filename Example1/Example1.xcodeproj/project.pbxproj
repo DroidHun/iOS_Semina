@@ -22,6 +22,9 @@
 		C15A104E1829C05900D171A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A102D1829C05900D171A5 /* UIKit.framework */; };
 		C15A10561829C05900D171A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C15A10541829C05900D171A5 /* InfoPlist.strings */; };
 		C15A10581829C05900D171A5 /* Example1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C15A10571829C05900D171A5 /* Example1Tests.m */; };
+		C15E0DB9182B1AA90090CCA2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15E0DB8182B1AA90090CCA2 /* SecondViewController.m */; };
+		C15E0DBC182B20180090CCA2 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15E0DBB182B20180090CCA2 /* ThirdViewController.m */; };
+		C15E0DBF182B296C0090CCA2 /* CustomSegueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C15E0DBE182B296C0090CCA2 /* CustomSegueTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		C15A10531829C05900D171A5 /* Example1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example1Tests-Info.plist"; sourceTree = "<group>"; };
 		C15A10551829C05900D171A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C15A10571829C05900D171A5 /* Example1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example1Tests.m; sourceTree = "<group>"; };
+		C15E0DB7182B1AA90090CCA2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C15E0DB8182B1AA90090CCA2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C15E0DBA182B20180090CCA2 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C15E0DBB182B20180090CCA2 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		C15E0DBD182B296C0090CCA2 /* CustomSegueTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegueTest.h; sourceTree = "<group>"; };
+		C15E0DBE182B296C0090CCA2 /* CustomSegueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegueTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +129,12 @@
 				C15A103E1829C05900D171A5 /* Main_iPad.storyboard */,
 				C15A10411829C05900D171A5 /* ViewController.h */,
 				C15A10421829C05900D171A5 /* ViewController.m */,
+				C15E0DB7182B1AA90090CCA2 /* SecondViewController.h */,
+				C15E0DB8182B1AA90090CCA2 /* SecondViewController.m */,
+				C15E0DBA182B20180090CCA2 /* ThirdViewController.h */,
+				C15E0DBB182B20180090CCA2 /* ThirdViewController.m */,
+				C15E0DBD182B296C0090CCA2 /* CustomSegueTest.h */,
+				C15E0DBE182B296C0090CCA2 /* CustomSegueTest.m */,
 				C15A10441829C05900D171A5 /* Images.xcassets */,
 				C15A10301829C05900D171A5 /* Supporting Files */,
 			);
@@ -253,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C15E0DB9182B1AA90090CCA2 /* SecondViewController.m in Sources */,
+				C15E0DBC182B20180090CCA2 /* ThirdViewController.m in Sources */,
 				C15A10431829C05900D171A5 /* ViewController.m in Sources */,
 				C15A103A1829C05900D171A5 /* AppDelegate.m in Sources */,
+				C15E0DBF182B296C0090CCA2 /* CustomSegueTest.m in Sources */,
 				C15A10361829C05900D171A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +492,7 @@
 				C15A105D1829C05900D171A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C15A105E1829C05900D171A5 /* Build configuration list for PBXNativeTarget "Example1Tests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +501,7 @@
 				C15A10601829C05900D171A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
