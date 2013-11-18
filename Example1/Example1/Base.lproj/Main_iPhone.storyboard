@@ -23,7 +23,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="segueBtnClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="D6h-3Y-yEG"/>
+                                    <action selector="btnClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VeW-eC-L8W"/>
+                                    <action selector="segueBtnClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dSK-ft-Wg1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hje-Op-RUg">
