@@ -10,8 +10,25 @@
 
 @implementation AppDelegate
 
+typedef struct {
+    int aInt;
+    float aFloat;
+    NSString *string;
+}Ext;
+
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    
+     //   ruct exStruct str;
+    Ext a;
+    
+    
+    CFBridgingRetain(<#id X#>)
+    
+    CFBridgingRelease(<#CFTypeRef X#>)
+    
+    
     
     id obj = [[NSObject alloc] init];
     NSLog(@"[Reference Count test] First Alloc : %lu\n", [obj retainCount]);
@@ -45,6 +62,11 @@
     [pool release];
     
     [NSString stringWithFormat:@"%D", 11];
+   
+    @autoreleasepool {
+        NSLog(@"[Reference Count test] autorelease - First Alloc : %lu\n", [obj retainCount]);
+    }
+
     
     
 //    // Insert code here to initialize your application
@@ -83,6 +105,7 @@
 -(void) check
 {
 
+    
 
 }
 
