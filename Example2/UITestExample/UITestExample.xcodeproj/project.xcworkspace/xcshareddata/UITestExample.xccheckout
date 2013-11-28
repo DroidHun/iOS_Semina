@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>686B9BCC-77E6-4D98-9DDC-23FFD3E80D0C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UITestExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E2EB6003-BB51-46CD-9544-95719B95917A</key>
+		<string>https://github.com/DroidHun/iOS_Semina.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example2/UITestExample/UITestExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E2EB6003-BB51-46CD-9544-95719B95917A</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DroidHun/iOS_Semina.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E2EB6003-BB51-46CD-9544-95719B95917A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E2EB6003-BB51-46CD-9544-95719B95917A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_Semina</string>
+		</dict>
+	</array>
+</dict>
+</plist>
