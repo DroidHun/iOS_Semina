@@ -59,9 +59,10 @@
 //
 //    [obj1 isKindOfClass:[Airplane class]];
 //    [Airplane performSelector:@selector(run)];
-    
-    NSString *stringEx = @"a" @"b" @"c" @"d";
-    NSLog(@"%@", stringEx);
+//    
+//    NSString *stringEx = @"a" @"b" @"c" @"d";
+//    NSLog(@"%@", stringEx);
+
     
 }
 

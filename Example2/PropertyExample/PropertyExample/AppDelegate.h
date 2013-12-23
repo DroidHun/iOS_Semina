@@ -10,7 +10,6 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 {
-    
     //Mapping Test
     NSString *_retainCustomString;
     NSString *_strongCustomString;

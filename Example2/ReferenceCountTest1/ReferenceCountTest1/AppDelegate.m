@@ -20,14 +20,6 @@ typedef struct {
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     
-     //   ruct exStruct str;
-    Ext a;
-    
-    
-    CFBridgingRetain(<#id X#>)
-    
-    CFBridgingRelease(<#CFTypeRef X#>)
-    
     
     
     id obj = [[NSObject alloc] init];
@@ -54,7 +46,7 @@ typedef struct {
     
     id pool = [[NSAutoreleasePool alloc] init];
     
-    obj = [[[NSObject alloc] init] autorelease];
+    obj = [[[NSMutableArray alloc] init] autorelease];
     NSLog(@"[Reference Count test] autorelase - First Alloc : %lu\n", [obj retainCount]);
     //Error!
     //[obj release];
@@ -64,6 +56,7 @@ typedef struct {
     [NSString stringWithFormat:@"%D", 11];
    
     @autoreleasepool {
+        obj = [NSMutableArray array];
         NSLog(@"[Reference Count test] autorelease - First Alloc : %lu\n", [obj retainCount]);
     }
 

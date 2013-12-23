@@ -21,7 +21,6 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
-
     //Retain ++
     [self setRetainString:@"retainString"];
     NSLog(@"%@",[self retainString]);
@@ -62,7 +61,7 @@
     if(_retainCustomString != obj)
     {
         //[_retainCustomString release];
-        _retainCustomString =  obj;
+        //_retainCustomString =  [obj retain];
     }
 }
 
@@ -81,6 +80,7 @@
     //    [copyString release];
         copyString = [obj copy];
     }
+    [NSMutableArray array];
     
     //ARC
     //copyString = [obj copy];

@@ -18,8 +18,9 @@
 @property (nonatomic, retain) IBOutlet UILabel *testLabel;
 
 
-
 -(IBAction)btnClicked:(id)sender;
+
+
 
 //Segue를 실행시키기 위한 Event 메서드 
 -(IBAction)segueBtnClicked:(id)sender;
