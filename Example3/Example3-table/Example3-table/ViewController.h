@@ -12,4 +12,8 @@
 {
     NSMutableArray *dataArray;
 }
+
+@property (nonatomic, strong) IBOutlet UINavigationItem *tableViewNavItem;
+@property (nonatomic, strong) IBOutlet UITableView *testTableView;;
+
 @end
