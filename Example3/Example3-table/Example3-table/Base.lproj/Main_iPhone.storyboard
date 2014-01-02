@@ -55,12 +55,6 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KeyLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRY-Y0-Dmf">
-                                                    <rect key="frame" x="228" y="11" width="72" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="centerY" secondItem="L2v-dp-4z5" secondAttribute="centerY" constant="20" id="K7E-JB-W8O"/>
@@ -72,7 +66,6 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="dataLabel" destination="L2v-dp-4z5" id="v9s-Uw-Dee"/>
-                                            <outlet property="keyLabel" destination="eRY-Y0-Dmf" id="QSy-3E-mKv"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

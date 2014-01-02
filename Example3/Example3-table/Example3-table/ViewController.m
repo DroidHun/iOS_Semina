@@ -45,7 +45,7 @@
         for (int k=0; k < [subArray count]; k++)
         {
             [subArray replaceObjectAtIndex:k withObject:
-             k % 2 > 0 ? @"여\n러\n줄\n텍\n스\n트\n입\n니\n다. 긴긴 텍스트!" : @"짧은 1줄 텍스트지요."];
+             k % 2 > 0 ? @"M\nU\nL\nT\nI\nP\nL\nE\n!. long long text!" : @"Single Line test"];
         }
     }
     
@@ -136,7 +136,7 @@
 //Delete Title 지정
 - (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return @"DeletionTitle!?";
+    return @"Custom Del";
 }
 
 //EditMode - indentation
