@@ -31,22 +31,6 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     [tableViewNavItem setLeftBarButtonItem:self.editButtonItem];
     
-    
-    NSString *dataPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, 0)[0] stringByAppendingPathComponent:@"tableData.plist"];
-    
-    NSFileManager *manager = [NSFileManager defaultManager];
-    
-    if(![manager isReadableFileAtPath:dataPath]){NSLog(@"not Found");};
-    
-    
-    NSArray *dataArray2  = [NSArray arrayWithContentsOfFile:dataPath];
-    if(dataArray2 == nil)
-    {
-        NSLog(@"File not found.");
-    }
-    
-    //NSURL *url = [NSURL URLWithString:@"file://localhost/Users/CrowDroid/Desktop/Plist.plist"];
-    //dataArray = [[NSMutableArray alloc] initWithContentsOfURL:url];
     dataArray = [@[
                    [@[@"1", @"2", @"3"] mutableCopy],
                    [@[@"1", @"2", @"3"] mutableCopy],
