@@ -49,6 +49,7 @@ enum
     string = [NSString stringWithUTF8String:"CStRING, UTF8"];
     
     string = @"str"@"붙임ㅋ"@"됨ㅋ";
+    NSLog(@"%@", string);
     
     //비교
     NSString *ascending = @"a";
@@ -152,7 +153,7 @@ enum
     NSLog(@"%@", [tildaString stringByExpandingTildeInPath]);
 
     //파일 조작
-    NSError *error = [[NSError alloc] init];
+    NSError *error = nil;
     NSString *fileString = [[NSString alloc] initWithContentsOfFile:pathString encoding:NSUTF8StringEncoding error:&error];
     NSLog(@"%@", fileString);
     NSStringEncoding encoding;
@@ -228,7 +229,7 @@ enum
     NSLog(@"%@", [[NSString alloc] initWithData:freedData encoding:NSUTF8StringEncoding]);
 
     //URL Contents Load
-    NSURL *dataURL = [[NSURL alloc] initWithString:@"http://aasdfsafsahfsdjkhkssdfa.com"];
+    NSURL *dataURL = [[NSURL alloc] initWithString:@"http://naver.com"];
     NSError *urlError = nil;
 
     //NSDataReadingOptions
@@ -334,7 +335,7 @@ enum
     array = [[NSArray alloc] initWithObjects:@"1", @"2", @"3", nil];
     //리터럴!
     array = @[@"1", @"2", @"3"];
-    
+
     //C-Style array로부터.
     id rawArray[] = {@"1", @"2", @"3"};
     array = [[NSArray alloc] initWithObjects:rawArray count:3];
@@ -491,6 +492,7 @@ enum
     
     //Literal!
     dict = @{@"K1" : @"OBJ1",@"K2" : @"OBJ2",@"K3" : @"OBJ3"};
+    
     NSLog(@"%@", dict);
     
     //접근
@@ -529,7 +531,6 @@ enum
     //
     ////////////////////////////////////////////////////////////
 
-    
     NSNumber *number = nil;
     number = @(enumTest1);
     number = @11;

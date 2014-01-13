@@ -34,6 +34,8 @@
 
 @property (nonatomic, copy, setter = copyStringSetter:) NSString *copyString;
 
+@property (atomic, copy, setter = copyStringSetter:) NSString *string;
+
 
 @property (nonatomic, retain, setter = retainCustomSetter:) NSString *retainCustomSetterString;
 @property (nonatomic, strong, setter = strongCustomSetter:) NSString *strongCustomSetterString;

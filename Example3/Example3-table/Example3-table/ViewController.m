@@ -80,6 +80,7 @@
     CGSize size = [dataString boundingRectWithSize:CGSizeMake(320, 1000) options:NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin
                                         attributes:attributes  context:nil].size;
     
+    
     return size.height + 20;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section

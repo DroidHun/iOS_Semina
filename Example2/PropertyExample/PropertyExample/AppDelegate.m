@@ -80,7 +80,6 @@
     //    [copyString release];
         copyString = [obj copy];
     }
-    [NSMutableArray array];
     
     //ARC
     //copyString = [obj copy];
